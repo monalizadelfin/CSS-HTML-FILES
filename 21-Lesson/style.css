@@ -1,0 +1,13 @@
+.box{
+    background-color: darkcyan;
+    width: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr;
+    gap: 5px;
+}
+.box-item{
+    padding: 15px;
+    background-color: cyan;
+    border: 1px solid black;
+}

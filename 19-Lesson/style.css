@@ -1,0 +1,25 @@
+.box{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    background-color: darkcyan;
+    display: flex;
+    /* aligning horizontal */
+    /* justify-content: start; */
+    /* justify-content: center; */
+    /* justify-content: end; */
+
+    /* aligning verticle */
+    /* align-items: self-start; */
+    /* align-items: center; */
+    /* align-items: end; */
+    /* CENTER ITEMS */
+    justify-content: center;
+    align-items: center;
+}
+.box-item{
+    width: 100px;
+    height: 100px;
+    background-color: cyan;
+    border: 1px solid black;
+}
